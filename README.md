@@ -32,5 +32,3 @@
 - README.md : รายละเอียดโปรเจกต์
 
 ---
-
-Created by Nott
