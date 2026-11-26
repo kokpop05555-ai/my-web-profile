@@ -1,37 +1,60 @@
 body {
-  background-color: papayawhip;
+  background-color: #f4f6f9;
   font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #333333;
+  font-size: 36px;
 }
 
 .card {
-  width: 300px;
+  width: 320px;
   background-color: #ffffff;
   border: 1px solid #dddddd;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
 }
 
 .card img {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center 15%;
   border-radius: 50%;
+  border: 3px solid #2ea44f;
   display: block;
   margin: 0 auto 15px;
 }
 
 #profile-name {
-  color: #333333;
-  text-align: center;
+  color: #222222;
+  margin: 10px 0 5px;
 }
 
 .bio {
   color: #666666;
   font-size: 14px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #333333;
+  margin-bottom: 10px;
 }
 
 ul {
   list-style-type: none;
   padding-left: 0;
+  color: #2ea44f;
+  line-height: 1.8;
 }
